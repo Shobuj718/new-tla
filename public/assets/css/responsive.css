@@ -1,0 +1,504 @@
+@media (max-width: 1200px) { 
+.chat_left .nav-pills .nav-link{
+    height: inherit;
+}
+.chat_left .user_desc{
+    padding-left: 10px;
+}
+}
+
+/* Medium Layout: 1280px. */
+ @media only screen and (min-width: 992px){
+    .modal-lg {
+    max-width: 1200px;
+}
+}
+/* Tablet Layout: 768px. */
+ @media only screen and (max-width: 991px) {
+     .sign-signup-form {
+        left: 0;
+    }
+     .signin_bottom ul li a span{
+         display:none;
+     }
+     .social_login ul li a i.fa {
+    margin: 0;
+    }
+    
+    .signin_bottom ul li a {
+        width: 45px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .signin_bottom {
+        display: block;
+        width: 100%;
+    }
+    h1.register-title {
+    font-size: 27px;
+    margin-top: 30px;
+    }
+     .reg-left-bg {
+        display: none;
+    }
+ 	.post-a-case{
+ 		padding-left: 0px;
+ 		padding-right: 0px;
+ 	}
+    .lawyer_info {
+        margin-top: 20px;
+    }
+
+.lawyer_info ul li:first-child {
+    margin-left: 0;
+}
+
+.lawyer_profile_box .project_btn {
+    text-align: left;
+}
+.lawyer_name {
+    margin-top: 20px;
+}
+.profile_img {
+    width: 120px;
+}
+.about_company.lawyer_information {
+    margin-top: 30px;
+}
+/*Chat*/
+.chat_left .user_desc{
+    padding-left: 0px;
+    width: 100%;
+}
+}
+
+/* Mobile Layout: 320px. */
+ @media only screen and (max-width: 767px) {
+     .home-case-area h2.title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .banner-area .d-table{
+    	height: 50vh;
+    }
+    .banner-area {
+        background: none;
+    }
+    
+    .banner-area .col-lg-6.color-green {
+        background-image:url(../img/mobile-banner-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .banner-area .col-lg-6.color-blue {
+        background-image:url(../img/mobile-banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+     
+     
+     
+     .practice_slice .practice-box{
+         display: none;
+     }
+     .practice-box-mobile{
+         display: block;
+     }
+     body{
+         overflow-x: hidden;
+    }
+     .main_header.home2 {
+         position: absolute;
+         top: 0;
+         background: transparent;
+    }
+     .mobile_menu{
+         display: block;
+    }
+     .big-menu, .desktop-menu{
+         display: none;
+    }
+    .site-logo a {
+        display: block;
+        text-align: center;
+    }
+     .header-area .logo{
+         text-align: center!important;
+    }
+     .banner-area-cell .post-a-case {
+         text-align: center;
+         margin-bottom: 40px;
+    }
+     	.post-a-case{
+ 		padding-left: 0px;
+ 		padding-right: 0px;
+ 	}
+     .home-case-area .case_header_area ul#pills-tab {
+         position: inherit;
+    }
+     .case_header_area .tabs_post_case {
+         text-align: left!important;
+    }
+     .case_table_area .pl-0 {
+         padding-left: 15px!important;
+    }
+     .case_table_area .pr-0 {
+         padding-right: 15px!important;
+    }
+     .profile_box ul.ratings {
+         margin-bottom: 17px;
+    }
+     .case_table_area .text-right {
+         text-align: left!important;
+    }
+     .project_counter .icon {
+         width: 77px;
+         margin-bottom: 20px;
+    }
+     .testimonial_area .testimonial_box {
+         margin-bottom: 20px;
+    }
+     .price_table {
+         margin-bottom: 30px;
+    }
+     .footer_top .text-right {
+         text-align: left!important;
+    }
+     .case_header_area .tabs_post_case {
+         margin-bottom: 20px;
+    }
+     .widget_area {
+         margin-top: 20px;
+    }
+    .inner_header.main_header {
+    position: inherit;
+}
+
+.inner_header.main_header .site-logo {
+    text-align: center;
+}
+
+.project_page_top .text-right {
+    text-align: left!important;
+    margin-top: 13px;
+}
+
+.project_page_top .text-right .project_case_btn {
+    width: 200px!important;
+}
+.project_box_all {
+	margin-top: 25px;
+}
+.single_project.breadcrumb .text-left, .single_project.breadcrumb .text-right {
+    text-align: center!important;
+}
+.single_project_all ul.meta_data li:nth-child(5), .user_profile_project ul.meta_data li, .single_project_all ul.meta_data li:nth-child(3), .single_project_all ul.meta_data li:nth-child(4) {
+    display: block!important;
+    border-top: 1px solid #f4f6f8;
+    border-right: 0px;
+}
+
+.single_project_all ul.meta_data li:nth-child(5) {
+    border-bottom: 1px solid #f4f6f8;
+    padding-left: 20px!important;
+}
+
+.single_project_attch {
+    padding-bottom: 30px;
+}
+
+.s_p_bottom table tr td.row_title span {
+}
+
+.s_p_bottom .col-lg-8, .s_p_bottom .col-lg-4 {
+    padding: 0;
+}
+.single_pro_table table tr th:nth-child(3), .single_pro_table table tbody tr td:nth-child(3), .s_p_bottom table tr td img {
+    display: none;
+}
+.sign_in_page.sign_up_page input.form-control{
+    max-width: inherit;
+}
+.sign_up_page .forgot_p {
+    margin-top: 20px;
+}
+.sign_up_page .login_content h1 {
+    margin-top: 20px;
+}
+.single_blog_box .blog_date {
+    width: inherit;
+    float: none;
+    position: absolute;
+    background: #fff;
+}
+
+.single_blog_box {
+    position: relative;
+}
+
+.single_blog_box .blog_content {
+    float: none;
+    width: 100%;
+}
+.blog_sidebar {
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.blog_content .b_title {
+    font-size: 21px;
+}
+.search_box {
+    margin-top: 20px;
+}
+.page-sidebar {
+    margin-top: 20px;
+}
+#bidNow .modal-body .col-md-4.pr-0, #bidNow .modal-body .col-md-8.pl-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*Chat*/
+.chat_left .user_desc i.fa, .chat_left .user_desc .u_dsc {
+    display: none;
+}
+.chat_head .col-lg-6.text-right {
+    text-align: left!important;
+}
+
+.chat_head .chat_top_btn a {
+    margin-left: 0;
+    margin-top: 10px;
+}
+.is-sticky .site-logo a img {
+    max-width: 78px;
+    max-height: 78px;
+}
+.sticky-wrapper.is-sticky .main_header .site-logo img{
+    width:78px;
+}
+.mm-panels>.mm-panel>.mm-listview:first-child, .mm-panels>.mm-panel>.mm-navbar+.mm-listview {
+    margin: 20px -20px!important;
+}
+#latest_project .row_title img {
+    width: 100%!important;
+}
+.hide_column_m {
+    display: none;
+}
+td.row_title .user_avatar {
+    float: none;
+    display: none;
+}
+
+td.row_title span {
+    float: none;
+    padding: 5px 0 0 0;
+}
+.case_header_area .nav-link-style.active, .case_header_area .nav-link-style {
+    padding: 10px 5px 15px 5px;
+}
+
+.profile_img {
+    text-align: center;
+    margin: 0 auto;
+}
+.phone_verify .col-lg-2 input[type=text] {
+    text-align: left;
+    background: #f5f5f5;
+}
+.error-content h1 {
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.single_project_content td .boxed_btn {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.single_project_content .requried_skill.project_tags {
+    margin-bottom: 20px;
+}
+.bootstrap-select .dropdown-menu {
+    min-width: 100%!important;
+    width: 100%!important;
+}
+.bid_profile {
+    margin-left: 0;
+}
+
+.s_p_bottom table tr td.row_title a {
+    font-size: 16px;
+}
+.single-proposal .single_project_title table tbody.bg_white .action-buttons a {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.s_p_bottom.lawyer_for td a.btn {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.s_p_bottom.lawyer_for ul.ratings li {
+    display: block;
+}
+
+.s_p_bottom.lawyer_for ul.ratings {
+    width: 100px;
+}
+.bid-on-case .bidding-form {
+    padding: 30px 0;
+}
+
+.bid-on-case .bidding-form .bidding-form-content .col-lg-12 {
+    padding: 0;
+}
+.user_profile_details .requried_skill.select-skills {
+    width: 100%;
+    display: inline-block;
+}
+
+.user_profile_details .requried_skill.select-skills .skills-item {
+    margin-bottom: 3px;
+}
+}
+
+/* Wide Mobile Layout: 480px. */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+/* Mobile Layout: 320px. */
+ @media only screen and (max-width: 576px) {
+     .post-a-case{
+         padding: 0px;
+    }
+    .banner-area .banner-title {
+        font-size: 18px;
+        margin-top: 53px;
+    }
+    .banner-area h2, .banner-area h1, .banner-title h3 {
+    font-size: 20px;
+    }
+    .banner-title {
+        min-height: 80px;
+        margin-bottom:10px;
+    }
+
+     .home-case-area h1 {
+         font-size: 35px;
+    }
+     .home-case-area div#latest_project_info, .home-case-area div#featured_projects_info {
+         float: none;
+    }
+     .case_table_area .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+         padding: 5px;
+    }
+     .case_table_area .dataTables_wrapper .dataTables_paginate .paginate_button {
+         padding: 5px;
+    }
+     .home-case-area div#latest_project_paginate, .home-case-area div#featured_projects_paginate {
+         float: none;
+    }
+     .app_icon ul li {
+         margin-bottom: 10px;
+    }
+    .single_pro_table table tbody tr td:nth-child(2), .single_pro_table table tr th:nth-child(4), .single_pro_table table tbody tr td:nth-child(4), .single_pro_table table tr th:nth-child(2), .s_p_bottom table tr th:nth-child(2), .s_p_bottom table tbody tr td:nth-child(2) {
+    display: none;
+}
+
+.s_p_bottom .col-lg-8, .s_p_bottom .col-lg-4 {
+    padding-left: 15px!important;
+    padding-right: 15px;
+}
+.lawyer_information .company_details {
+    text-align: center;
+}
+.sign_left_bg h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sign_left_bg p.sign_copy {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-right: 0;
+}
+
+.signin_bottom h4 {
+    font-size: 16px;
+}
+
+.sign_in {
+    margin-bottom: 30px;
+}
+
+.social_login ul li a {
+    margin-bottom: 10px;
+}
+.login_content {
+    padding: 0 15px;
+}
+.social_login ul{
+    text-align: center;
+}
+.login_content h1{
+    font-size: 27px;
+}
+.submit-project-content .form-group label {
+    padding-bottom: 10px;
+}
+.s_p_bottom.lawyer_for table tr th:nth-child(2), .s_p_bottom.lawyer_for table tbody tr td:nth-child(2){
+display: block;
+}
+/*Chat*/
+.chat_search_form {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.chat_search_form input, .chat_search_form select, .chat_search_form input, .chat_search_form i.fa {
+    font-size: 12px;
+}
+
+.form-group.search_chat label {
+    top: 2px;
+}
+.phone_verify .col-lg-2 input[type=text]{
+    width:55px;
+}
+.about_company.lawyer_information.bid-sidebar .about_company_dtls img {
+    width: 100%;
+}
+.case_table_area a.apply_btn.boxed_btn {
+    font-size: 12px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width:320px){
+    .practice-box-mobile h5{
+        width:83%;
+    }
+    .login_content h1 {
+    font-size: 25px;
+}
+.single-profile-page .company_address ul li:last-child span {
+    float: none;
+    padding-left: 24px;
+}
+.case_table_area a.apply_btn.boxed_btn {
+    font-size: 10px;
+}
+}
